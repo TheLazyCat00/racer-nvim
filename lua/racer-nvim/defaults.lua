@@ -1,6 +1,5 @@
 return {
 	triggers = {
 		{"[", "]"},
-		{"F", "f"}
 	}
 }
