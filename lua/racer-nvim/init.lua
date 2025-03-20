@@ -81,7 +81,7 @@ function M.next()
 	local first_char = get_first_char(macro)
 	local new_char = keys[first_char].next
 	local new_macro = replace_first_char(macro, new_char)
-	vim.api.nvim_input("<ESC>" .. new_macro)
+	vim.api.nvim_input(new_macro)
 end
 
 
@@ -89,7 +89,7 @@ function M.prev()
 	local first_char = get_first_char(macro)
 	local new_char = keys[first_char].prev
 	local new_macro = replace_first_char(macro, new_char)
-	vim.api.nvim_input("<ESC>" .. new_macro)
+	vim.api.nvim_input(new_macro)
 end
 
 return M
