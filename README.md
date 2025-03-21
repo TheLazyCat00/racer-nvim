@@ -6,9 +6,7 @@ A Neovim plugin for cycling through key sequences with custom triggers.
 
 racer-nvim allows you to record key sequences and cycle through variations of these sequences by changing the first character. This is particularly useful for navigating between similar commands or for custom macro functionality.
 
-## Installation
-
-### Using [lazy.nvim](https://github.com/folke/lazy.nvim)
+## Installation with [lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ```lua
 {
