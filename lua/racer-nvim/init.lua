@@ -78,6 +78,9 @@ function M.setup(opts)
 end
 
 function M.next()
+	if macro == "" then
+		return
+	end
 	local first_char = get_first_char(macro)
 	local new_char = keys[first_char].next
 	local new_macro = replace_first_char(macro, new_char)
@@ -86,6 +89,9 @@ end
 
 
 function M.prev()
+	if macro == "" then
+		return
+	end
 	local first_char = get_first_char(macro)
 	local new_char = keys[first_char].prev
 	local new_macro = replace_first_char(macro, new_char)
