@@ -4,7 +4,7 @@ A Neovim plugin for cycling through key sequences with custom triggers.
 
 ## What is racer-nvim?
 
-racer-nvim allows you to record key sequences and cycle through variations of these sequences by changing the first character. This is particularly useful for navigating between similar commands or for custom macro functionality.
+racer-nvim allows you to record key sequences and cycle through variations of these sequences by changing the first character. This is particularly useful for navigating between similar commands or for custom macro functionality. You can for example overload `,` and  `;` to also do `[` and `]` motions.
 
 ## Installation with [lazy.nvim](https://github.com/folke/lazy.nvim)
 
@@ -72,7 +72,7 @@ and executes the new sequence
 
 ## Why not use [demicolon](https://github.com/mawkler/demicolon.nvim)?
 
-I made this plugin because I found that demicolon is way to unflexible and doesn't work well with other plugins. So I made my own solution.
+I made this plugin because I found that demicolon is way too unflexible and doesn't work well with other plugins. So I made my own solution.
 The dynamic approach of racer-nvim makes it so that you can use this with literally anything you want.
 
 ---
