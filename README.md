@@ -42,15 +42,18 @@ racer-nvim allows you to record key sequences and cycle through variations of th
 }
 ```
 
-Defaults:
+<details>
+<summary>Defaults</summary>
+    
 ```lua
-{
-    triggers = {
-        {"[", "]"}
-    },
-    external = {}
-}
+    {
+        triggers = {
+            {"[", "]"}
+        },
+        external = {}
+    }
 ```
+</details>
 
 ## Usage
 
