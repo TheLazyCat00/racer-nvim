@@ -1,5 +1,6 @@
 return {
 	triggers = {
 		{"[", "]"},
-	}
+	},
+	external = {}
 }
