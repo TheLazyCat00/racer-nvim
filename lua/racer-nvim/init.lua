@@ -40,7 +40,9 @@ local function replace_first_char(str, replacement)
 	return replacement .. string.sub(str, 2)
 end
 
-
+local function get_first_char(str)
+	return str:sub(1, 1)
+end
 
 function M.setup(opts)
 	external = opts.external or defaults.external
