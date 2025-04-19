@@ -1,10 +1,8 @@
 # racer-nvim 🏎
 
-A Neovim plugin for cycling through key sequences with custom triggers.
+racer-nvim allows you to repeat the last jump forward or backward. It's similar to demicolon, but unlike [demicolon](https://github.com/mawkler/demicolon.nvim), this plugin works with any other plugin because the functionality isn't hardcoded per jump. That means if you later add more functionality to the keys you've configured with this plugin, you won't have to worry about it not working.
 
-## Description
-
-racer-nvim allows you to record key sequences and cycle through variations of these sequences by changing the first character. This is particularly useful for navigating between similar commands or for custom macro functionality.
+https://github.com/user-attachments/assets/a41debdc-459c-42f8-b141-5b84e0395e57
 
 ## Installation with [lazy.nvim](https://github.com/folke/lazy.nvim)
 
@@ -64,7 +62,6 @@ Defaults:
 2. When you call `next()` or `prev()`, it replaces the first character with its corresponding pair (the one in the right direction)
 and executes the new sequence
 3. If an external function is defined for a trigger, it will be called instead
-
 
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
