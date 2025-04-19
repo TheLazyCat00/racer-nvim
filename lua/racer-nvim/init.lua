@@ -82,7 +82,6 @@ function M.next()
 	vim.api.nvim_input(new_macro)
 end
 
-
 function M.prev()
 	if macro == "" then
 		return
